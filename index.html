@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+             width:auto;
+            }
+        #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+        #customers td, #customers th {
+         border: 1px solid #ddd;
+         padding: 8px;
+         color: #008ece;
+        }
+
+        #customers th {
+          padding-top: 12px;
+         padding-bottom: 12px;
+         text-align: left;
+         background-color: darkgray;
+         color: #008ece;
+        }
+
+        #btn{
+            color:white;
+            background-color: red;
+        }
+        .id1{
+            border-collapse: collapse; 
+            background-color: #f5f7f7;
+            color:rebeccapurple;
+        }
+        #id2{
+           color: #eefffe; 
+        }
+        #id3{
+            color:#8ed2ed;
+        }
+        #id4{
+            background-color: #008ecf;
+        }
+        #id5{
+            background-color:#fbdce0;
+        }
+
+    </style>
+</head>
+<body>
+       
+    <table id="customers">
+        <tr id="id4">
+            <td colspan="7"><h2><span id="id2">Fancy</span>&nbsp;<span id="id3">Grid</span> </h2></td>
+        </tr>
+        <tr class="id1" >
+            <td>ADD</td>
+            <td colspan="6">DELETE</td>
+        </tr>
+    <tr>
+        <th>ID</th>
+        <th>Company</th>
+        <th>Education</th>
+        <th>Name</th>
+        <th>Sur name</th>
+        <th>age</th>
+        <th></th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Electrical system</td>
+        <td>High school of otwa</td>
+        <td>john</td>
+        <td>cena</td>
+        <td>20</td>
+        <td><button id="btn" >Delete</button></td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Electronic system</td>
+        <td>High school of otwa</td>
+        <td>Rakesh</td>
+        <td>raval</td>
+        <td>25</td>
+        <td><button id="btn">Delete</button></td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>energy and oil</td>
+        <td>High school of otwa</td>
+        <td>Ramesh</td>
+        <td>saha</td>
+        <td>12</td>
+        <td><button id="id5" disabled>Delete</button></td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td>embeded system</td>
+        <td>High school of otwa</td>
+        <td>Roman</td>
+        <td>Reign</td>
+        <td>22</td>
+        <td><button id="btn">Delete</button></td>
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td>System Analysis</td>
+        <td>High school of otwa</td>
+        <td>Ryan</td>
+        <td>Walker</td>
+        <td>27</td>
+        <td><button id="btn">Delete</button></td>
+    </tr>
+
+    <tr>
+        <td>6</td>
+        <td>Google</td>
+        <td>High school of otwa</td>
+        <td>Tom</td>
+        <td>Hardy</td>
+        <td>27</td>
+        <td><button id="btn">Delete</button></td>
+    </tr>
+
+    <tr>
+        <td>7</td>
+        <td>Natural Gas</td>
+        <td>High school of otwa</td>
+        <td>Ahmed</td>
+        <td>Khan</td>
+        <td>37</td>
+        <td><button id="btn">Delete</button></td>
+    </tr>
+    </table>
+</body>
+</html>
